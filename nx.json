@@ -29,6 +29,18 @@
     "next-example-e2e": {
       "tags": [],
       "implicitDependencies": ["next-example"]
+    },
+    "theme-lib": {
+      "tags": []
+    },
+    "ui": {
+      "tags": []
+    },
+    "app-example": {
+      "tags": []
+    },
+    "ui-styled": {
+      "tags": []
     }
   }
 }

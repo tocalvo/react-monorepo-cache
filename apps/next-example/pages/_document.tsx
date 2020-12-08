@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import Document, { Head, Main, NextScript } from 'next/document';
+import Document, { Head, Html, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
 export default class CustomDocument extends Document<{
@@ -19,13 +19,17 @@ export default class CustomDocument extends Document<{
 
   render() {
     return (
-      <html>
-        <Head>{this.props.styleTags}</Head>
+      <Html>
+        <Head>
+          {this.props.styleTags}
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        </Head>
         <body>
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }
