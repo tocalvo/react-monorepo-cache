@@ -8,6 +8,7 @@
     "@testing-library/react-native": "*",
     "@testing-library/jest-native": "*",
     "@testing-library/react": "*",
-    "styled-components": "*"
+    "styled-components": "*",
+    "react-native-svg": "*"
   }
 }

@@ -18,10 +18,13 @@ import {
 // @ts-ignore
 import openURLInBrowser from 'react-native/Libraries/Core/Devtools/openURLInBrowser';
 import { ExportedComponentStyled } from '@react-monorepo-cache/ui-styled';
+import TwitterIcon from './src/assets/icons/twitter.svg'
 
 const App = () => {
+  console.log('icon', <TwitterIcon></TwitterIcon>)
   return (
     <>
+      <TwitterIcon></TwitterIcon>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
