@@ -5,5 +5,6 @@ module.exports = {
     '<rootDir>/libs/ui',
     '<rootDir>/apps/app-example',
     '<rootDir>/libs/ui-styled',
+    '<rootDir>/libs/native-lib',
   ],
 };

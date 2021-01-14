@@ -18,7 +18,8 @@
     "paths": {
       "@react-monorepo-cache/theme-lib": ["libs/theme-lib/src/index.ts"],
       "@react-monorepo-cache/ui": ["libs/ui/src/index.ts"],
-      "@react-monorepo-cache/ui-styled": ["libs/ui-styled/src/index.ts"]
+      "@react-monorepo-cache/ui-styled": ["libs/ui-styled/src/index.ts"],
+      "@react-monorepo-cache/native-lib": ["libs/native-lib/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

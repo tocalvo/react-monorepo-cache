@@ -41,6 +41,9 @@
     },
     "ui-styled": {
       "tags": []
+    },
+    "native-lib": {
+      "tags": []
     }
   }
 }

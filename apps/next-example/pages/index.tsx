@@ -2,6 +2,10 @@ import { Button } from '@material-ui/core';
 import React from 'react';
 import styled from 'styled-components';
 import { ExportedComponent } from '@react-monorepo-cache/ui'
+// import dynamic from 'next/dynamic'
+// const NativeLib = dynamic(import('@react-monorepo-cache/native-lib'), { ssr: false }) // Async API cannot be server-side rendered
+
+import { NativeLib } from '@react-monorepo-cache/native-lib'
 
 const StyledPage = styled.div`
   .app {
@@ -142,10 +146,11 @@ export function Index() {
    */
   return (
     <StyledPage>
+      <NativeLib></NativeLib>
       <Button variant="contained" color="primary">
         Hello Material
-    </Button>
-    <ExportedComponent></ExportedComponent>
+      </Button>
+      <ExportedComponent></ExportedComponent>
       <h2>Resources &amp; Tools</h2>
       <p>Thank you for using and showing some ♥ for Nx.</p>
       <div className="flex github-star-container">
