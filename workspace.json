@@ -19,6 +19,7 @@
         },
         "serve": {
           "builder": "@nrwl/next:server",
+          "verbose": true,
           "options": {
             "buildTarget": "next-example:build",
             "dev": true
