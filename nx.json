@@ -41,6 +41,9 @@
     },
     "ui-styled": {
       "tags": []
+    },
+    "native-shared-components": {
+      "tags": []
     }
   }
 }
