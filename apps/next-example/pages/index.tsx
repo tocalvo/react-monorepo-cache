@@ -2,7 +2,7 @@ import { Button } from '@material-ui/core';
 import React from 'react';
 import styled from 'styled-components';
 import { ExportedComponent } from '@react-monorepo-cache/ui'
-import { NativeComponent } from '@react-monorepo-cache/native-shared-components'
+import { ExportedComponentStyled } from '@react-monorepo-cache/ui-styled';
 
 const StyledPage = styled.div`
   .app {
@@ -146,7 +146,7 @@ export function Index() {
       <Button variant="contained" color="primary">
         Hello Material
     </Button>
-      <NativeComponent></NativeComponent>
+      <ExportedComponentStyled></ExportedComponentStyled>
       <ExportedComponent></ExportedComponent>
       <h2>Resources &amp; Tools</h2>
       <p>Thank you for using and showing some ♥ for Nx.</p>

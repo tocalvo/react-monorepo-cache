@@ -16,7 +16,7 @@ const StyledText = styled.Text`
 export function ExportedComponentStyled(props: ExportedComponentStyledProps) {
   return (
     <StyledExportedComponentStyled>
-      <StyledText>Welcome to exported-component-styled!</StyledText>
+      <StyledText>Welcome to exported-component-styled! patata!</StyledText>
     </StyledExportedComponentStyled>
   );
 }

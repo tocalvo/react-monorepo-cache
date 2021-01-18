@@ -21,7 +21,6 @@ import { ExportedComponentStyled } from '@react-monorepo-cache/ui-styled';
 import TwitterIcon from './src/assets/icons/twitter.svg'
 
 const App = () => {
-  console.log('icon', <TwitterIcon></TwitterIcon>)
   return (
     <>
       <TwitterIcon></TwitterIcon>
