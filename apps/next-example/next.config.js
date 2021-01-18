@@ -13,10 +13,11 @@ module.exports = withNx({
       ...config.resolve,
       alias: {
         ...config.resolve.alias,
+        'react-native$': 'react-native-web',
         '/Users/tom/repos/tocalvo/react-monorepo-cache/node_modules/react-native/index.js': '/Users/tom/repos/tocalvo/react-monorepo-cache/node_modules/react-native-web/dist/index.js',
       },
     }
-    console.log('configPrint', config)
+    //console.log('configPrint', config)
     return config
   }
 });
