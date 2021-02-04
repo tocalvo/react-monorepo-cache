@@ -10,7 +10,16 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "resolveJsonModule": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    // "paths": {
+    //   "react-native": ["react-native-web"],
+    //   "@react-monorepo-cache/theme-lib": ["libs/theme-lib/src/index.ts"],
+    //   "@react-monorepo-cache/ui": ["libs/ui/src/index.ts"],
+    //   "@react-monorepo-cache/ui-styled": ["libs/ui-styled/src/index.ts"],
+    //   "@react-monorepo-cache/native-shared-components": [
+    //     "libs/native-shared-components/src/index.ts"
+    //   ]
+    // }
   },
   "include": ["**/*.ts", "**/*.tsx", "next-env.d.ts"],
   "exclude": ["node_modules"]
